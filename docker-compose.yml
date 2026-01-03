@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: saas_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-    volumes:
+    volumes:  
       - db_data:/var/lib/postgresql/data
       - ./backend/migrations:/docker-entrypoint-initdb.d
 
@@ -40,3 +40,4 @@ services:
 
 volumes:
   db_data:
+
