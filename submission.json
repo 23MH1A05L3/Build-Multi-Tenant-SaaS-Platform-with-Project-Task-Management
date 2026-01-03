@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Multi-Tenant SaaS Platform with Project and Task Management",
-    "description": "A production-ready multi-tenant SaaS application with role-based access control, tenant isolation, projects, tasks, audit logs, and full Dockerized deployment."
+    "description": "A production-ready multi-tenant SaaS application with role-based access control, tenant isolation, projects, tasks, audit logs, and full Dockerized deployment." 
   },
   "credentials": {
     "super_admin": {
