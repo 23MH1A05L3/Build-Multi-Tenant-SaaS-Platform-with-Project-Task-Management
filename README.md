@@ -16,7 +16,7 @@ This project is a production-ready multi-tenant SaaS application that enables or
 
 ---
 
-## 2. Features List
+## 2. Features List    
 
 - Multi-tenant architecture with tenant isolation
 - Role-based access control (Super Admin, Tenant Admin, User)
@@ -139,4 +139,5 @@ Returns 200 od when backend is ready.
 | Super Admin  | [superadmin@system.com](mailto:superadmin@system.com) | Admin@123    |
 | Tenant Admin | [admin@demo.com](mailto:admin@demo.com)               | Demo@123     |
 | User         | [user1@demo.com](mailto:user1@demo.com)               | User@123     |
+
 | User         | [user2@demo.com](mailto:user1@demo.com)               | User@123     |
