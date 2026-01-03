@@ -9,7 +9,7 @@ The system follows a three-tier architecture consisting of a client layer, appli
 
 ### Components:
 - **Client (Browser):** End users access the system via a web browser.
-- **Frontend Application:** A React-based single-page application responsible for UI rendering and API communication.
+- **Frontend Application:** A React-based single-page application responsible for UI rendering and API communication.  
 - **Backend API Server:** A Node.js (Express) REST API that handles authentication, business logic, and data access.
 - **Database:** PostgreSQL database used for persistent data storage.
 - **Authentication Flow:** JWT-based authentication is used for securing API endpoints.
@@ -183,4 +183,5 @@ Indexes are applied on all `tenant_id` columns to improve query performance and 
 - **GET /api/audit-logs**  
   Auth Required: Yes  
   Roles: Super Admin, Tenant Admin
+
 
