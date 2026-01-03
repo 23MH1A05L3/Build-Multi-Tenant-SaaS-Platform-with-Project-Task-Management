@@ -6,7 +6,7 @@
 ## 1. Project Structure
 
 This project follows a clear separation of concerns between backend, frontend, documentation, and infrastructure configuration.
-
+  
 ### Root Directory Structure
 
 ```
@@ -195,3 +195,4 @@ cd backend
 npm test
 
 ```
+
