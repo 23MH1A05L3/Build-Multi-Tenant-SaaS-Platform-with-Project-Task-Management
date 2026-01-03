@@ -7,7 +7,7 @@
     "super_admin": {
       "email": "superadmin@system.com",
       "password": "demo123",
-      "role": "super_admin"
+      "role": "super_admin" 
     },
     "tenant_admins": [
       {
