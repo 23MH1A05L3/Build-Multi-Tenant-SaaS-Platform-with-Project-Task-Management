@@ -13,7 +13,7 @@ The system follows a three-tier architecture consisting of a client layer, appli
 - **Backend API Server:** A Node.js (Express) REST API that handles authentication, business logic, and data access.
 - **Database:** PostgreSQL database used for persistent data storage.
 - **Authentication Flow:** JWT-based authentication is used for securing API endpoints.
-
+   
 ### Authentication Flow:
 - User submits login credentials via the frontend.
 - Backend validates credentials and issues a JWT.
@@ -183,3 +183,4 @@ Indexes are applied on all `tenant_id` columns to improve query performance and 
 - **GET /api/audit-logs**  
   Auth Required: Yes  
   Roles: Super Admin, Tenant Admin
+
