@@ -6,12 +6,12 @@
   "credentials": {
     "super_admin": {
       "email": "superadmin@system.com",
-      "password": "Admin123",
+      "password": "Admin@123",
     },
     "tenant_admins": [
       {
         "email": "admin@demo.com",
-        "password": "Demo123",
+        "password": "Demo@123",
         "tenantSubdomain": "demo",
       },
     ],
